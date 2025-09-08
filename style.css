@@ -1,0 +1,140 @@
+      :root {
+          --Green-500: hsl(158, 36%, 37%);
+          --Green-700: hsl(158, 42%, 18%);
+          --Black: hsl(212, 21%, 14%);
+          --Grey: hsl(228, 12%, 48%);
+          --Cream: hsl(30, 38%, 92%);
+          --White: hsl(0, 0%, 100%);
+      }
+
+      *,
+      *::before,
+      *::after {
+          box-sizing: border-box;
+      }
+
+      * {
+          margin: 0;
+          padding: 0;
+      }
+
+      body {
+          font-family: "Montserrat", sans-serif;
+          background-color: var(--Cream);
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 100vh;
+          margin: 0;
+      }
+
+      main {
+          max-width: 21.875rem;
+          background-color: var(--White);
+      }
+
+      .product-image {
+          width: 100%;
+          border-radius: 0.625rem 0.625rem 0 0;
+      }
+
+      .product-card {
+          display: grid;
+          grid-template-columns: auto;
+      }
+
+      .product-details {
+          padding: 2rem;
+      }
+
+      .product-brand {
+          font-family: "Montserrat", sans-serif;
+          text-transform: uppercase;
+          letter-spacing: 0.3rem;
+          font-size: 0.8rem;
+          color: var(--Grey);
+          padding: 0rem 0 1rem 0;
+      }
+
+      .product-name {
+          font-family: "Figtree";
+          padding-bottom: 1.5rem;
+          font-size: 2.3125rem;
+      }
+
+      .product-description {
+          padding-bottom: 1.5rem;
+          font-family: "Montserrat", sans-serif;
+          font-weight: 500;
+          font-size: 0.875rem;
+          color: var(--Grey);
+      }
+
+      .product-pricing {
+          padding-bottom: 1.5rem;
+          display: flex;
+          align-items: center;
+          gap: 1rem;
+      }
+
+      .add-to-cart-button {
+          width: 100%;
+          background-color: var(--Green-500);
+          color: var(--White);
+          border: none;
+          padding: 1rem;
+          border-radius: 0.5rem;
+          font-weight: 700;
+          font-size: 1rem;
+          cursor: pointer;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 0.5rem;
+      }
+
+      .add-to-cart-button:hover {
+          background-color: var(--Green-700);
+      }
+
+      .current-price {
+          font-family: "Fraunces", sans-serif;
+          font-weight: 700;
+          font-size: 2rem;
+          color: var(--Green-500);
+      }
+
+      .original-price {
+          font-family: "Montserrat", sans-serif;
+          font-size: 0.8rem;
+          color: var(--Grey);
+      }
+
+      @media (min-width: 600px) {
+          .product-card {
+              grid-template-columns: 18.75rem auto;
+          }
+
+          main {
+              min-width: 37.5rem;
+              border-radius: 0.625rem;
+          }
+
+          .product-image {
+              height: 100%;
+              border-radius: 0.625rem 0 0 0.625rem;
+          }
+
+          .product-brand {
+              font-size: 1rem;
+          }
+
+          .product-name {
+              line-height: 2.5rem;
+              font-size: 2.5rem;
+          }
+
+          .product-description {
+              line-height: 1.5rem;
+          }
+      }
