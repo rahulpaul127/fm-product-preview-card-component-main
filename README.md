@@ -11,8 +11,6 @@ Frontend Mentor - [Product preview card component](https://www.frontendmentor.io
   - [Built with](#built-with)
 - [Author](#author)
 
-
-
 ## Overview
 
 ### Screenshot
@@ -23,8 +21,8 @@ Frontend Mentor - [Product preview card component](https://www.frontendmentor.io
 
 ### Links
 
-- Solution URL: [Frontend Mentor]()
-- Live Site URL: [Github Pages]()
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/product-preview-card-component-bGACes2Xct)
+- Live Site URL: [Github Pages](https://rahulpaul127.github.io/fm-product-preview-card-component-main/)
 
 ## My Process
 
@@ -42,4 +40,5 @@ Frontend Mentor - [Product preview card component](https://www.frontendmentor.io
 
 - Frontend Mentor - [@rahulpaul127](https://www.frontendmentor.io/profile/rahulpaul127)
 - Twitter - [@rahulpaul127](https://x.com/rahulpaul127)
+
 
